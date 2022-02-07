@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: auto;
+  width: 1024px;
+  background-color: #a45d5d;
+  margin-bottom: 200px;
+  color: #efefef;
+}
+
+.containerHeader {
+  display: flex;
+  align-items: center;
+}
+
+.container1 {
+  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  border-bottom: #efefef;
+  border-width: 3px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  line-height: 1.5rem;
+}
+
+main h1 {
+  padding-bottom: 15px;
+}
+
+a {
+  background-color: white;
+  color: #fa4083;
+  padding: 11px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.336);
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Roboto", serif;
+}
+/*
+FLEXBOX
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url("/personalProject/BikeRepair2/images/image-background-card1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url("/personalProject/BikeRepair2/images/image-background-card2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card3 {
+  background-image: url("/personalProject/BikeRepair2/images/image-background-card3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+i {
+  font-size: 60px;
+  color: white;
+}
+*/
+
+/* GRID */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  gap: 20px;
+  color: #efefef;
+  line-height: 1.5rem;
+}
+
+.card1 {
+  background-image: url("/personalProject/BikeRepair2/images/image-background-card1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+}
+
+.card2 {
+  background-image: url("/personalProject/BikeRepair2/images/image-background-card2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+}
+
+.card3 {
+  background-image: url("/personalProject/BikeRepair2/images/image-background-card3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+}
+
+i {
+  font-size: 60px;
+  color: white;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+
+  justify-content: space-between;
+  align-content: center;
+}
+
+.ossas {
+  grid-column: 1 / -3;
+}
+
+.gianni {
+  grid-column: 2 / -2;
+}
+
+.ana {
+  grid-column: 4/5;
+  grid-row: 4/-1;
+}
+
+.cards p {
+  padding: 15px 15px;
+}
+
+.ossas,
+.gianni,
+.ana,
+.giorgio,
+.alfredo {
+  border: 1px solid white;
+  margin-top: 50px;
+  line-height: 2rem;
+  padding: 15px;
+}
